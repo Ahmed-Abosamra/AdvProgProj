@@ -14,7 +14,7 @@
     <a href="https://github.com/ahmeddwalid/AdvProgProj/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a https://github.com/ahmeddwalid/AdvProgProj/issues">Report Bug</a>
+    <a href="https://github.com/ahmeddwalid/AdvProgProj/issues">Report Bug</a>
     ·
     <a href="https://github.com/ahmeddwalid/AdvProgProj/pulls">Request Feature</a>
   </p>
