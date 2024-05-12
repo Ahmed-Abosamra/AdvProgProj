@@ -57,13 +57,15 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 ## Features
 
 - UML diagram
-- JavaFX Responsive GUI
+- JavaFX Responsive user friendly GUI
 - GUI events with buttons
-- Accessing MySQL Database using XAMPP
+- JDBC accessing MySQL Database using XAMPP
 - Added Login and Signup
 - Added 12 app screens
+- Using Object-oriented design with comments (Clean Code)
 - Added Encapsulation
 - Added Polymorphism
+- Added Overloading and Overriding
 - Used CSS for styling
 - Project uploaded on [Github](https://github.com/ahmeddwalid/AdvProgProj)
 - Added [screenshots](https://github.com/ahmeddwalid/AdvProgProj/tree/main/Runtime) of the run 
