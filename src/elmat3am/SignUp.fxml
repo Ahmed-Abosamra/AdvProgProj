@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane styleClass="ahmed-root" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elmat3am.Controller">
+   <center>
+      <AnchorPane fx:id="Signup" maxHeight="658.0" maxWidth="851.0" minHeight="540.0" minWidth="740.0" prefHeight="658.0" prefWidth="851.0">
+          <children>
+              <Button fx:id="Sc2_Signup" layoutX="326.0" layoutY="527.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="26.0" prefWidth="198.0" styleClass="ahmed-button" stylesheets="@styles.css" text="Register" />
+              <TextField fx:id="Sc2_First" layoutX="256.0" layoutY="297.0" prefHeight="26.0" prefWidth="198.0" promptText="FirstName" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+              <TextField fx:id="Sc2_Last" layoutX="471.0" layoutY="297.0" prefHeight="26.0" prefWidth="137.0" promptText="LastName" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+              <ImageView fitHeight="286.0" fitWidth="371.0" layoutX="283.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/profile.png" />
+               </image>
+              </ImageView>
+            <TextField fx:id="Sc2_Email" layoutX="256.0" layoutY="341.0" prefHeight="26.0" prefWidth="354.0" promptText="Email" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+            <TextField fx:id="Sc2_Phone" layoutX="256.0" layoutY="383.0" prefHeight="26.0" prefWidth="354.0" promptText="Phone Number" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+            <PasswordField fx:id="Sc2_Password" layoutX="256.0" layoutY="426.0" prefHeight="26.0" prefWidth="354.0" promptText="Password" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+            <PasswordField fx:id="Sc2_Confirm" layoutX="256.0" layoutY="465.0" prefHeight="26.0" prefWidth="354.0" promptText="Confirm Password" styleClass="ahmed-text-field" stylesheets="@styles.css" />
+          </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
