@@ -192,6 +192,14 @@
                      </children>
                   </HBox>
                   <Pane prefHeight="69.0" prefWidth="181.0" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="110.0" styleClass="checkout-button-active" stylesheets="@../../../values/styles.css" text="Checkout" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="15.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="25.0" />
+                     </HBox.margin>
+                  </Button>
                   <Button mnemonicParsing="false" onAction="#switchToFoodMenu" prefHeight="40.0" prefWidth="100.0" styleClass="menu-button-inactive" stylesheets="@../../../values/styles.css" text="Chicken" textFill="WHITE">
                      <font>
                         <Font name="Calibri Bold" size="15.0" />
@@ -298,6 +306,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -394,6 +419,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -487,6 +529,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -580,6 +639,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -672,6 +748,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -768,6 +861,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -848,6 +958,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
@@ -941,6 +1068,23 @@
                                                 <Insets left="10.0" />
                                              </HBox.margin>
                                           </Text>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" text="-">
+                                                   <HBox.margin>
+                                                      <Insets right="20.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                                <Button alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" stylesheets="@../../../values/styles.css" text="+">
+                                                   <HBox.margin>
+                                                      <Insets left="10.0" />
+                                                   </HBox.margin>
+                                                </Button>
+                                             </children>
+                                             <padding>
+                                                <Insets right="20.0" />
+                                             </padding>
+                                          </HBox>
                                        </children>
                                        <padding>
                                           <Insets right="5.0" />
