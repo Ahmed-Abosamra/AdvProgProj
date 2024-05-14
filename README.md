@@ -99,7 +99,7 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 ![About us](Runtime/AboutUs.png)
 ![Location](Runtime/Location.png)
 ![Profile](Runtime/Profile.png)
-![Profile](Runtime/Checkout.png)
+![Checkout](Runtime/Checkout.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
