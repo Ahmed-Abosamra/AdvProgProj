@@ -47,7 +47,7 @@
 ## About The Project
 
 
-Modern design responsive restaurant food ordering system implemented using JavaFX
+Modern design responsive restaurant food ordering system that interacts with MySQL database implemented using JavaFX
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -57,18 +57,19 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 <!-- FEATURES -->
 ## Features
 
-- UML diagram
+- UML class diagram
 - JavaFX Responsive user friendly GUI
 - GUI events with buttons
 - JDBC accessing MySQL Database using XAMPP
-- Added Login and Signup
-- Added 12 app screens
+- Added 13 app screens
+- Has Login and Signup features
 - Using Object-oriented design 
 - Written in **clean code** and provided comments
 - Added Encapsulation
 - Added Polymorphism
 - Added Overloading and Overriding
 - Used CSS for styling
+- High Quality images & assets
 - Project uploaded on [Github](https://github.com/ahmeddwalid/AdvProgProj)
 - Added [screenshots](https://github.com/ahmeddwalid/AdvProgProj/tree/main/Runtime) of the run 
 
