@@ -1,6 +1,7 @@
 
 
 
+
 <div id="top"></div>
 
   <h2 align="center">Advanced Programming Project</h2>
@@ -14,7 +15,7 @@
     <a href="https://github.com/ahmeddwalid/AdvProgProj/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ahmeddwalid/AdvProgProj/issues">Report Bug</a>
+    <a "https://github.com/ahmeddwalid/AdvProgProj/issues">Report Bug</a>
     ·
     <a href="https://github.com/ahmeddwalid/AdvProgProj/pulls">Request Feature</a>
   </p>
@@ -62,7 +63,8 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 - JDBC accessing MySQL Database using XAMPP
 - Added Login and Signup
 - Added 12 app screens
-- Using Object-oriented design with comments (Clean Code)
+- Using Object-oriented design 
+- Written in **clean code** and provided comments
 - Added Encapsulation
 - Added Polymorphism
 - Added Overloading and Overriding
@@ -97,6 +99,7 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 ![About us](Runtime/AboutUs.png)
 ![Location](Runtime/Location.png)
 ![Profile](Runtime/Profile.png)
+![Profile](Runtime/Checkout.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
