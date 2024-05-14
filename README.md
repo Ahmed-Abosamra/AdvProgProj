@@ -88,17 +88,29 @@ Modern design responsive restaurant food ordering system implemented using JavaF
 <!--RUNTIME-->
 # The Runtime
 
+. The Main Menu
 ![The main menu](Runtime/HomeScreen.png)
+. The Chicken Menu
 ![The chicken menu](Runtime/ChickenMenu.png)
+. The Pizza Menu
 ![The pizza menu](Runtime/PizzaMenu.png)
+. The Burger Menu
 ![The burger menu](Runtime/BurgersMenu.png)
+. The Drinks Menu 
 ![The drinks menu](Runtime/DrinksMenu1.png)
+. The Drinks Menu after scrolling
 ![The drinks menu](Runtime/DrinksMenu2.png)
+. The Desserts Menu
 ![The desserts menu](Runtime/DessertsMenu.png)
+. The Contact us Menu
 ![Contact us](Runtime/ContactUs.png)
+. The About Us Menu
 ![About us](Runtime/AboutUs.png)
+. The Location Menu
 ![Location](Runtime/Location.png)
+. The Profile Menu
 ![Profile](Runtime/Profile.png)
+. The Checkout Menu
 ![Checkout](Runtime/Checkout.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
