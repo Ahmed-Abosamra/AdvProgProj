@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="checkout" prefHeight="400.0" prefWidth="600.0" styleClass="ahmed-root" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="elmat3am.CheckOutController">
+   <children>
+      <Label fx:id="npizza" layoutX="248.0" layoutY="306.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label fx:id="ppizza" layoutX="248.0" layoutY="336.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label layoutX="59.0" layoutY="306.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Total Number Of Pizza:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="335.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Pizza Total Price:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nburger" layoutX="248.0" layoutY="247.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label fx:id="pburger" layoutX="248.0" layoutY="277.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label layoutX="41.0" layoutY="247.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Total Number Of Burger:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="276.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Burger Total Price:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nchicken" layoutX="248.0" layoutY="191.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label fx:id="pchicken" layoutX="248.0" layoutY="221.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label layoutX="37.0" layoutY="191.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Total Number Of Chicken:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="220.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Chicken Total Price:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nDrinks" layoutX="248.0" layoutY="135.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label fx:id="pDrinks" layoutX="248.0" layoutY="165.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label layoutX="54.0" layoutY="135.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Total Number Of Drinks:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="164.0" styleClass="ahmed-label" stylesheets="@styles.css" text="DrinksTotal Price:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nDesserts" layoutX="248.0" layoutY="75.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label fx:id="PDesserts" layoutX="248.0" layoutY="105.0" prefHeight="18.0" prefWidth="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Label" />
+      <Label layoutX="35.0" layoutY="74.0" styleClass="ahmed-label" stylesheets="@styles.css" text="Total Number Of Desserts:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="104.0" styleClass="ahmed-label" stylesheets="@styles.css" text="DessertsTotal Price:">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="255.0" fitWidth="268.0" layoutX="323.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Icons/logo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Home" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="29.0" prefWidth="97.0" styleClass="menu-button-inactive" stylesheets="@styles.css" text="Home" textFill="WHITE" />
+      <Button fx:id="Home1" layoutX="402.0" layoutY="329.0" mnemonicParsing="false" onAction="#Exit" prefHeight="29.0" prefWidth="97.0" styleClass="ahmed-button" stylesheets="@styles.css" text="Exit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,128 @@
+.primary-background {
+    -fx-background-color: #F67F01;
+}
+
+.secondary-background {
+    -fx-background-color: #FBF9F6;
+}
+
+.white-background {
+    -fx-background-color: #fff;
+}
+
+.transparent {
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.right-bar-background {
+    -fx-background-color: #fff;
+    -fx-border-style: hidden solid hidden hidden;
+}
+
+.top-bar-background {
+    -fx-background-color: #fff;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+.white-card {
+    -fx-background-color: #fff;
+    -fx-background-radius: 20;
+}
+
+.white-card-with-shadow {
+    -fx-background-color: #fff;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 15, 0, 0, 0);
+}
+
+.menu-button-active {
+    -fx-background-color: #404040;
+    -fx-background-radius: 40px;
+}
+
+.menu-button-inactive {
+    -fx-background-color: #A0A0A0;
+    -fx-background-radius: 40px;
+}
+
+.menu-images {
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-background-radius: 30;
+}
+
+.transparent-button {
+  -fx-background-color: transparent;
+  -fx-border: none;  /* Remove default button border */
+  -fx-pick-on-bounds: true;  /* Maintain click area despite transparency */
+}
+
+.ahmed-root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #F5E6CC;
+}
+
+.ahmed-button {
+    -fx-background-color: #8B4513;
+    -fx-min-width: 100px;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 25px;
+}
+
+.ahmed-button:hover {
+    -fx-background-color: #A0522D;
+}
+
+.ahmed-text-field {
+    -fx-background-color: #F0E68C;
+    -fx-text-fill: black;
+    -fx-padding: 5px;
+    -fx-border-color: #8B4513;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.ahmed-text-field:focus {
+    -fx-border-color: #A0522D;
+}
+
+.ahmed-text-field {
+    -fx-prompt-text-fill: #654321;
+    -fx-background-color: #F0E68C;
+    -fx-text-fill: black;
+    -fx-border-width: 2px;
+}
+
+
+.ahmed-text-area {
+    -fx-background-color: #F0E68C;
+    -fx-prompt-text-fill: #654321;
+    -fx-padding: 5px;
+    -fx-border-color: #8B4513;
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+
+.ahmed-text-area .content {
+    -fx-background-color: #F0E68C;
+}
+
+
+
+.ahmed-label {
+    -fx-text-fill: #8B4513;
+    -fx-background-color: #F5E6CC;
+}
+
+.location-bgcolor {
+    -fx-background-color: #90daee;
+}
+
+.checkout-button-active {
+    -fx-background-color: #a70000;
+    -fx-background-radius: 40px;
+}
